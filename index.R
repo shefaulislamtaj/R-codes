@@ -1,0 +1,5 @@
+cars <- c(1,3,6,4,9)
+trucks <- c(2,5,4,5,13)
+plot(cars, type="0", col="blue",ylim=c(0,12))
+lins(trucks,type="0", pch=22, lty=2, cal="red")
+title(main="Autos",col.main="red",font.main=4)
